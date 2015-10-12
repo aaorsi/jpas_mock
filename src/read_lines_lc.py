@@ -55,7 +55,8 @@ def read_chunks(ip,Mags=False):
     nf.close()
     return LinesLumArr, MagsLumArr_
   else:
-    zArr = np.fromfile(nf,dtype=np.float64,count=ngg)
+    zArr = np.zeros((ngg)
+    zArr = np.fromfile(nf,dtype='f8',count=ngg)
 #    print 'zdata read.'
     nf.close()
     return {'lines':LinesLumArr, 'z':zArr}
