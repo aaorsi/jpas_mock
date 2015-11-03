@@ -92,7 +92,7 @@ def main(nproc,outfile):
     print 'int_ab[i]',int_ab[i]
 
   print 'loading lightcone data'
-  props = ['redshift','pos','Zcold','sfr','vel','stellarmass']
+  props = ['redshift','pos','Mz','Mcold','sfr','vel','stellarmass']
   print 'now loading photo-ionisation grid'
   lineinfo,linesarr = read_photoion()
   nline = lineinfo['nlines']
@@ -105,7 +105,10 @@ def main(nproc,outfile):
   def read_lightcone_chunk(ip, nproc):
     GalArr,lLyc,ngg,DistNz,zdist = readmock_chunk(ip,nproc,props_array = props,
                                    zspace=usezspace)
-    qpar = qZrelation(GalArr['Zcold'])  # assuming default pars.
+
+    
+    zcold = GalArr['Mz']/GalArr['Mcold']
+    qpar = qZrelation(zcold)  # assuming default pars.
 
     # This stores all line luminosities for all galaxies
     # LinesLumArr[i,j] = Luminosity of line j for galaxy i.
@@ -116,7 +119,7 @@ def main(nproc,outfile):
     print 'ip '+str(ip)+', computing lines for  ngals=',ngg,' galaxies...'
     sys.stdout.flush()
     for ig in range(ngg):
-      LinesLumArr[ig,:] = integ_line(lineinfo,linesarr,qpar[ig],GalArr['Zcold'][ig],lLyc[ig],all_lines=True) 
+      LinesLumArr[ig,:] = integ_line(lineinfo,linesarr,qpar[ig],zcold[ig],lLyc[ig],all_lines=True) 
       redshiftArr[ig] = GalArr['redshift'][ig]
       SfrArr[ig] = GalArr['sfr'][ig]
       MStellarArr[ig] = GalArr['stellarmass'][ig]
