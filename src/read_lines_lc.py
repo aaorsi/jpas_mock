@@ -12,6 +12,7 @@ import weighted as wp
 import scipy.integrate as integral
 import sys
 import struct
+from read_photoion import *
 
 FiltArr,wrange = rf.read_filters()
 print 'filters read'
@@ -19,12 +20,19 @@ jpaslims = jp.get_jpaslims()
 print 'jpas lims set'
 
 datafile = '/home/CEFCA/aaorsi/work/jpas_mock/out/'
-name = 'emlines_MXXL'
+#name = 'emlines_MXXL'
+#name = 'test'
+name = 'lines_mags_sfr_mstellar_z'
+
 
 nFil = len(FiltArr['w'])
 CentralW = np.zeros(nFil)
 int_ab = np.zeros(nFil)
 p10p90W = np.zeros([nFil,2])
+
+  
+lineinfo,linesarr = read_photoion()
+nline = lineinfo['nlines']
 
 for i in range(nFil):
   CentralW[i] = wp.quantile(FiltArr['w'][i],FiltArr['t'][i],0.5)
@@ -35,31 +43,38 @@ for i in range(nFil):
   print 'int_ab[i]',int_ab[i]
 
 
-def read_chunks(ip,Mags=False):
+def read_chunks(ip,Mags=True):
 
-  magtype = np.dtype('f4, i4')
   filename = datafile + name +'.' + str(ip)
 #  print 'reading '+filename
   nf    = open(filename,"rb")
   ngg   = np.fromfile(nf,dtype=np.int64,count=1)
   nline = np.fromfile(nf,dtype=np.int32,count=1)
-  ngg = ngg[0]
   nline = nline[0]
+  ngg = ngg[0]
+  magtype = np.dtype('f4, i4')
 #  print ngg, nline
-  LinesLumArr = np.zeros((ngg,nline))
+  LinesLumArr = np.zeros([ngg,nline])
 #   LinesLumArr = nf.read(LinesLumArr.nbytes)
   LinesLumArr = np.fromfile(nf,dtype='('+str(ngg)+','+str(nline)+')f8',count=1)
 #  print 'lines data read.'
+
+  MagsLumArr = np.zeros((ngg,nline),dtype=magtype)
   if Mags is True:
-    MagsLumArr_ = np.fromfile(nf,dtype=magtype,count=ngg * nline)
-    nf.close()
-    return LinesLumArr, MagsLumArr_
-  else:
-    zArr = np.zeros((ngg)
-    zArr = np.fromfile(nf,dtype='f8',count=ngg)
+    for _i in range(ngg):
+      MagsLumArr[_i,:] = np.fromfile(nf,dtype=magtype,count=nline)
+#    nf.close()
+#    return LinesLumArr, MagsLumArr_
+#  else:
+  zArr = np.fromfile(nf,dtype=np.double,count=ngg)
+  SfrArr = np.fromfile(nf,dtype=np.double,count=ngg)
+  MStellarArr = np.fromfile(nf,dtype=np.double,count=ngg)
+
+
+
 #    print 'zdata read.'
-    nf.close()
-    return {'lines':LinesLumArr, 'z':zArr}
+  nf.close()
+  return {'lines':LinesLumArr, 'z':zArr,'Mstellar':MStellarArr,'SFR':SfrArr,'Mag':MagsLumArr}
 #   MagsLumArr = np.memmap(nf,dtype=magtype, shape=(ngg,nline))
   
 
@@ -105,7 +120,7 @@ def main(iline):
 
 #     output.put(allmag_lf)
     
-  nproc = 4
+  nproc = 1
   pool = mp.Pool(processes=nproc)
   lfarray  = pool.map(read_chunks, range(nproc))
 

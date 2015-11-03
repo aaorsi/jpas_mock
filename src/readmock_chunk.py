@@ -19,7 +19,7 @@ mstellarmin = 0.0, zspace = None):
 	"""
 
 	datadir = '/home/CEFCA/aaorsi/work/jpas_mock/data/'
-	filename = 'gals_mxxl_v0_4.sav'
+	filename = 'gals_mxxl_v0_5.sav'
 	datafile = datadir + filename
 
 	fd = open(datafile,'rb')
@@ -32,7 +32,7 @@ mstellarmin = 0.0, zspace = None):
 	
 #	dtype used to read the data:
 	gal = np.dtype([('redshift',np.float32),('stellarmass',np.float32),('pos',np.float32,3),('vel',np.float32,3),\
-	('ObsMag',np.float32,5),('Mvir',np.float32),('Type',np.int32),('sfr',np.float32),('Zcold',np.float32)])
+	('ObsMag',np.float32,5),('Mvir',np.float32),('Type',np.int32),('sfr',np.float32),('Mz',np.float32),('Mcold',np.float32)])
 
 # dtype used to store the data:
 	len_proparr = len(props_array)
@@ -100,9 +100,9 @@ mstellarmin = 0.0, zspace = None):
 
 	if zspace:
 #	return GalArr[nozero], Lya0[nozero], ngg, distance[nozero]
-		return GalArr, Nlyc_, ngg, distance,s
+		return GalArr[0:ngg], Nlyc_, ngg, distance,s
 	else:
-		return GalArr, Nlyc_, ngg, distance
+		return GalArr[0:ngg], Nlyc_, ngg, distance
 		
 if __name__ == "__readmock_chunk__":
 	readmock()

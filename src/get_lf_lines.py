@@ -5,7 +5,7 @@ import multiprocessing as mp
 import numpy as np 
 
 filename = '/home/CEFCA/aaorsi/work/jpas_mock/out/lines_z.'
-nfiles = 20
+nfiles = 100
 from functools import partial
 
 # Read all files:

@@ -54,7 +54,7 @@ def main(nproc,outfile):
 
   nproc = int(nproc)
 
-  IncludeMags = False
+  IncludeMags = True
 
   print 'nproc:',nproc,' outfile:',outfile
   sys.stdout.flush()
@@ -92,7 +92,7 @@ def main(nproc,outfile):
     print 'int_ab[i]',int_ab[i]
 
   print 'loading lightcone data'
-  props = ['redshift','pos','Zcold','sfr','vel']
+  props = ['redshift','pos','Zcold','sfr','vel','stellarmass']
   print 'now loading photo-ionisation grid'
   lineinfo,linesarr = read_photoion()
   nline = lineinfo['nlines']
@@ -104,20 +104,28 @@ def main(nproc,outfile):
   magtype = np.dtype('f4, i4')
   def read_lightcone_chunk(ip, nproc):
     GalArr,lLyc,ngg,DistNz,zdist = readmock_chunk(ip,nproc,props_array = props,
-                                                  zspace=usezspace)
+                                   zspace=usezspace)
     qpar = qZrelation(GalArr['Zcold'])  # assuming default pars.
 
     # This stores all line luminosities for all galaxies
     # LinesLumArr[i,j] = Luminosity of line j for galaxy i.
     LinesLumArr = np.zeros((ngg,nline))
     redshiftArr = np.zeros(ngg)
+    SfrArr = np.zeros(ngg)
+    MStellarArr = np.zeros(ngg)
     print 'ip '+str(ip)+', computing lines for  ngals=',ngg,' galaxies...'
     sys.stdout.flush()
     for ig in range(ngg):
       LinesLumArr[ig,:] = integ_line(lineinfo,linesarr,qpar[ig],GalArr['Zcold'][ig],lLyc[ig],all_lines=True) 
       redshiftArr[ig] = GalArr['redshift'][ig]
+      SfrArr[ig] = GalArr['sfr'][ig]
+      MStellarArr[ig] = GalArr['stellarmass'][ig]
 #     LinesLumArr[ig,il] = iline
       
+    print 'redshiftArr', redshiftArr[0:10]
+    print 'Lines[0,:]' , LinesLumArr[0,:]
+    print 'Lines[10,:]' , LinesLumArr[10,:]
+    print 'Lines[100,:]' , LinesLumArr[100,:]
     print 'Proc ip:'+str(ip)+' done with that.'
 
     # This stores the AB observed-frame apparent magnitude for all luminosities of all galaxies, indicating also to which filter
@@ -132,7 +140,7 @@ def main(nproc,outfile):
       for il in range(nline):
         L_line = lineinfo['lambda0'][il]
         wgal = L_line*(1 + GalArr['redshift'])
-        log_Fline = LinesLumArr[:,il] + 40.0 - (np.log10(4*np.pi)+2*(log_dist))
+        log_Fline = LinesLumArr[:,il] - (np.log10(4*np.pi)+2*(log_dist))
         FLine = 10**log_Fline
 
         for i in range(ngg):
@@ -155,18 +163,24 @@ def main(nproc,outfile):
     if IncludeMags is True:
       MagsLumArr.tofile(nf)
     redshiftArr.tofile(nf)
+    SfrArr.tofile(nf)
+    MStellarArr.tofile(nf)
     nf.close()
     print 'file '+filename+' written succesfully.'
     
     return 1
 
-  print 'start processes'
-  processes = [mp.Process(target=read_lightcone_chunk, args=(ip,nproc)) for ip in range(nproc)]
-  for p in processes:
-    p.start()
+  if nproc == 1:
+    processes = read_lightcone_chunk(0,1)
+  else:  
+    print 'start processes'
+    processes = [mp.Process(target=read_lightcone_chunk, args=(ip,nproc)) for ip in range(nproc)]
+    for p in processes:
+      p.start()
 
-  for p in processes:
-    p.join()
+    for p in processes:
+      p.join()
+
 
   return 1
 
