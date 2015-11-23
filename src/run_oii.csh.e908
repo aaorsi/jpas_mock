@@ -1,0 +1,50 @@
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+Exception in thread Thread-4:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 810, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 763, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 326, in _handle_workers
+    pool._maintain_pool()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 230, in _maintain_pool
+    self._repopulate_pool()
+  File "/usr/lib/python2.7/multiprocessing/pool.py", line 223, in _repopulate_pool
+    w.start()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 130, in start
+    self._popen = Popen(self)
+  File "/usr/lib/python2.7/multiprocessing/forking.py", line 121, in __init__
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+

@@ -1,0 +1,826 @@
+Warning: no access to tty (Descriptor de archivo erróneo).
+Thus no job control in this shell.
+nproc: 100  outfile: ../out/lines_z
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS3518_535.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS3785_165.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS3900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS9000_145.res
+0.1 1.65
+int_ab[i] 0.0203564614201
+int_ab[i] 0.0114679466933
+int_ab[i] 0.0120821911842
+int_ab[i] 0.0134861972183
+int_ab[i] 0.0144946668297
+int_ab[i] 0.0151178715751
+int_ab[i] 0.0155359748751
+int_ab[i] 0.0158372074366
+int_ab[i] 0.0160428285599
+int_ab[i] 0.0161389298737
+int_ab[i] 0.016166485846
+int_ab[i] 0.0161570832133
+int_ab[i] 0.0161299556494
+int_ab[i] 0.0160437822342
+int_ab[i] 0.0159118641168
+int_ab[i] 0.0158081613481
+int_ab[i] 0.0157246999443
+int_ab[i] 0.0156724117696
+int_ab[i] 0.0155749479309
+int_ab[i] 0.0154485590756
+int_ab[i] 0.0153099568561
+int_ab[i] 0.0152072031051
+int_ab[i] 0.0151442587376
+int_ab[i] 0.0151389818639
+int_ab[i] 0.0151322046295
+int_ab[i] 0.0150892026722
+int_ab[i] 0.0149820689112
+int_ab[i] 0.0148524548858
+int_ab[i] 0.0147035121918
+int_ab[i] 0.014489825815
+int_ab[i] 0.0142242480069
+int_ab[i] 0.0139062553644
+int_ab[i] 0.0132269561291
+int_ab[i] 0.0136163467541
+int_ab[i] 0.0135210696608
+int_ab[i] 0.0125481933355
+int_ab[i] 0.0125179411843
+int_ab[i] 0.0125501481816
+int_ab[i] 0.0121549926698
+int_ab[i] 0.00964732654393
+int_ab[i] 0.0107342172414
+int_ab[i] 0.0112485848367
+int_ab[i] 0.0109006380662
+int_ab[i] 0.0106882341206
+int_ab[i] 0.010041648522
+int_ab[i] 0.00910400412977
+int_ab[i] 0.00908912438899
+int_ab[i] 0.00916602555662
+int_ab[i] 0.00884866714478
+int_ab[i] 0.00851715542376
+int_ab[i] 0.00812996644527
+int_ab[i] 0.00771042471752
+int_ab[i] 0.00710422359407
+int_ab[i] 0.00618865946308
+loading lightcone data
+now loading photo-ionisation grid
+Lines available: ['Lyalpha' 'Hbeta' 'Halpha' 'OII_3727' 'OII_3729' 'OIII_5007' 'OIII_4959'
+ 'OI_6300' 'NII_6548' 'NII_6584' 'SII_6717' 'SII_6731' 'NeIII_3870'
+ 'CII_158um' 'NII_205um']
+checking lambda0: [  1.21600000e+03   4.86100000e+03   6.56300000e+03   3.72700000e+03
+   3.72900000e+03   5.00700000e+03   4.95900000e+03   6.30000000e+03
+   6.54800000e+03   6.58400000e+03   6.71700000e+03   6.73100000e+03
+   3.87000000e+03   1.58000000e+06   2.05000000e+06] [  1.21600000e+03   4.86100000e+03   6.56300000e+03   3.72700000e+03
+   3.72900000e+03   5.00700000e+03   4.95900000e+03   6.30000000e+03
+   6.54800000e+03   6.58400000e+03   6.71700000e+03   6.73100000e+03
+   3.87000000e+03   1.58000000e+00   2.05000000e+00]
+nz, nq, nage, [5] [7] [1]
+start processes
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 1=[1895088]
+after selection, ngals =  1895088
+ip 1, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 2=[1895088]
+after selection, ngals =  1895088
+ip 2, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 0=[1895088]
+after selection, ngals =  1895088
+ip 0, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 3=[1895088]
+after selection, ngals =  1895088
+ip 3, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 4=[1895088]
+after selection, ngals =  1895088
+ip 4, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 5=[1895088]
+after selection, ngals =  1895088
+ip 5, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 7=[1895088]
+after selection, ngals =  1895088
+ip 7, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 6=[1895088]
+after selection, ngals =  1895088
+ip 6, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 8=[1895088]
+after selection, ngals =  1895088
+ip 8, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 9=[1895088]
+after selection, ngals =  1895088
+ip 9, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 12=[1895088]
+after selection, ngals =  1895088
+ip 12, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 10=[1895088]
+after selection, ngals =  1895088
+ip 10, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 13=[1895088]
+after selection, ngals =  1895088
+ip 13, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 14=[1895088]
+after selection, ngals =  1895088
+ip 14, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 11=[1895088]
+after selection, ngals =  1895088
+ip 11, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 15=[1895088]
+after selection, ngals =  1895088
+ip 15, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 17=[1895088]
+after selection, ngals =  1895088
+ip 17, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 18=[1895088]
+after selection, ngals =  1895088
+ip 18, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 16=[1895088]
+after selection, ngals =  1895088
+ip 16, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 20=[1895088]
+after selection, ngals =  1895088
+ip 20, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 19=[1895088]
+after selection, ngals =  1895088
+ip 19, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 23=[1895088]
+after selection, ngals =  1895088
+ip 23, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 24=[1895088]
+after selection, ngals =  1895088
+ip 24, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 25=[1895088]
+after selection, ngals =  1895088
+ip 25, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 22=[1895088]
+after selection, ngals =  1895088
+ip 22, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 27=[1895088]
+after selection, ngals =  1895088
+ip 27, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 26=[1895088]
+after selection, ngals =  1895088
+ip 26, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 21=[1895088]
+after selection, ngals =  1895088
+ip 21, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 32=[1895088]
+after selection, ngals =  1895088
+ip 32, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 28=[1895088]
+after selection, ngals =  1895088
+ip 28, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 30=[1895088]
+after selection, ngals =  1895088
+ip 30, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 34=[1895088]
+after selection, ngals =  1895088
+ip 34, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 35=[1895088]
+after selection, ngals =  1895088
+ip 35, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 36=[1895088]
+after selection, ngals =  1895088
+ip 36, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 38=[1895088]
+after selection, ngals =  1895088
+ip 38, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 31=[1895088]
+after selection, ngals =  1895088
+ip 31, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 29=[1895088]
+after selection, ngals =  1895088
+ip 29, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 37=[1895088]
+after selection, ngals =  1895088
+ip 37, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 33=[1895088]
+after selection, ngals =  1895088
+ip 33, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 39=[1895088]
+after selection, ngals =  1895088
+ip 39, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 41=[1895088]
+after selection, ngals =  1895088
+ip 41, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 40=[1895088]
+after selection, ngals =  1895088
+ip 40, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 43=[1895088]
+after selection, ngals =  1895088
+ip 43, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 44=[1895088]
+after selection, ngals =  1895088
+ip 44, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 42=[1895088]
+after selection, ngals =  1895088
+ip 42, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 47=[1895088]
+after selection, ngals =  1895088
+ip 47, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 48=[1895088]
+after selection, ngals =  1895088
+ip 48, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 50=[1895088]
+after selection, ngals =  1895088
+ip 50, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 49=[1895088]
+after selection, ngals =  1895088
+ip 49, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 45=[1895088]
+after selection, ngals =  1895088
+ip 45, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 51=[1895088]
+after selection, ngals =  1895088
+ip 51, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 52=[1895088]
+after selection, ngals =  1895088
+ip 52, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 46=[1895088]
+after selection, ngals =  1895088
+ip 46, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 54=[1895088]
+after selection, ngals =  1895088
+ip 54, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 53=[1895088]
+after selection, ngals =  1895088
+ip 53, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 55=[1895088]
+after selection, ngals =  1895088
+ip 55, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 57=[1895088]
+after selection, ngals =  1895088
+ip 57, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 61=[1895088]
+after selection, ngals =  1895088
+ip 61, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 60=[1895088]
+after selection, ngals =  1895088
+ip 60, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 58=[1895088]
+after selection, ngals =  1895088
+ip 58, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 64=[1895088]
+after selection, ngals =  1895088
+ip 64, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 62=[1895088]
+after selection, ngals =  1895088
+ip 62, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 59=[1895088]
+after selection, ngals =  1895088
+ip 59, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 63=[1895088]
+after selection, ngals =  1895088
+ip 63, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 56=[1895088]
+after selection, ngals =  1895088
+ip 56, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 69=[1895088]
+after selection, ngals =  1895088
+ip 69, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 67=[1895088]
+after selection, ngals =  1895088
+ip 67, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 65=[1895088]
+after selection, ngals =  1895088
+ip 65, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 66=[1895088]
+after selection, ngals =  1895088
+ip 66, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 74=[1895088]
+after selection, ngals =  1895088
+ip 74, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 73=[1895088]
+after selection, ngals =  1895088
+ip 73, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 72=[1895088]
+after selection, ngals =  1895088
+ip 72, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 71=[1895088]
+after selection, ngals =  1895088
+ip 71, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 68=[1895088]
+after selection, ngals =  1895088
+ip 68, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 76=[1895088]
+after selection, ngals =  1895088
+ip 76, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 75=[1895088]
+after selection, ngals =  1895088
+ip 75, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 77=[1895088]
+after selection, ngals =  1895088
+ip 77, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 70=[1895088]
+after selection, ngals =  1895088
+ip 70, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 79=[1895088]
+after selection, ngals =  1895088
+ip 79, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 78=[1895088]
+after selection, ngals =  1895088
+ip 78, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 83=[1895088]
+after selection, ngals =  1895088
+ip 83, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 80=[1895088]
+after selection, ngals =  1895088
+ip 80, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 81=[1895088]
+after selection, ngals =  1895088
+ip 81, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 86=[1895088]
+after selection, ngals =  1895088
+ip 86, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 82=[1895088]
+after selection, ngals =  1895088
+ip 82, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 88=[1895088]
+after selection, ngals =  1895088
+ip 88, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 85=[1895088]
+after selection, ngals =  1895088
+ip 85, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 91=[1895088]
+after selection, ngals =  1895088
+ip 91, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 89=[1895088]
+after selection, ngals =  1895088
+ip 89, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 84=[1895088]
+after selection, ngals =  1895088
+ip 84, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 87=[1895088]
+after selection, ngals =  1895088
+ip 87, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 93=[1895088]
+after selection, ngals =  1895088
+ip 93, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 90=[1895088]
+after selection, ngals =  1895088
+ip 90, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 94=[1895088]
+after selection, ngals =  1895088
+ip 94, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 99=[1895088]
+after selection, ngals =  1895088
+ip 99, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 92=[1895088]
+after selection, ngals =  1895088
+ip 92, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 97=[1895088]
+after selection, ngals =  1895088
+ip 97, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 96=[1895088]
+after selection, ngals =  1895088
+ip 96, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 95=[1895088]
+after selection, ngals =  1895088
+ip 95, computing lines for  ngals= 1895088  galaxies...
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 98=[1895088]
+after selection, ngals =  1895088
+ip 98, computing lines for  ngals= 1895088  galaxies...
+Proc ip:99 done with that.
+writing file ../out/lines_z.99
+file ../out/lines_z.99 written succesfully.
+Proc ip:91 done with that.
+writing file ../out/lines_z.91
+file ../out/lines_z.91 written succesfully.
+Proc ip:81 done with that.
+writing file ../out/lines_z.81
+file ../out/lines_z.81 written succesfully.
+Proc ip:85 done with that.
+writing file ../out/lines_z.85
+file ../out/lines_z.85 written succesfully.
+Proc ip:80 done with that.
+writing file ../out/lines_z.80
+file ../out/lines_z.80 written succesfully.
+Proc ip:90 done with that.
+writing file ../out/lines_z.90
+file ../out/lines_z.90 written succesfully.
+Proc ip:79 done with that.
+writing file ../out/lines_z.79
+file ../out/lines_z.79 written succesfully.
+Proc ip:84 done with that.
+writing file ../out/lines_z.84
+file ../out/lines_z.84 written succesfully.
+Proc ip:92 done with that.
+writing file ../out/lines_z.92
+file ../out/lines_z.92 written succesfully.
+Proc ip:98 done with that.
+writing file ../out/lines_z.98
+file ../out/lines_z.98 written succesfully.
+Proc ip:93 done with that.
+writing file ../out/lines_z.93
+file ../out/lines_z.93 written succesfully.
+Proc ip:96 done with that.
+writing file ../out/lines_z.96
+file ../out/lines_z.96 written succesfully.
+Proc ip:83 done with that.
+writing file ../out/lines_z.83
+file ../out/lines_z.83 written succesfully.
+Proc ip:82 done with that.
+writing file ../out/lines_z.82
+file ../out/lines_z.82 written succesfully.
+Proc ip:89 done with that.
+writing file ../out/lines_z.89
+file ../out/lines_z.89 written succesfully.
+Proc ip:86 done with that.
+writing file ../out/lines_z.86
+file ../out/lines_z.86 written succesfully.
+Proc ip:76 done with that.
+writing file ../out/lines_z.76
+file ../out/lines_z.76 written succesfully.
+Proc ip:94 done with that.
+writing file ../out/lines_z.94
+file ../out/lines_z.94 written succesfully.
+Proc ip:88 done with that.
+writing file ../out/lines_z.88
+file ../out/lines_z.88 written succesfully.
+Proc ip:75 done with that.
+writing file ../out/lines_z.75
+file ../out/lines_z.75 written succesfully.
+Proc ip:78 done with that.
+writing file ../out/lines_z.78
+file ../out/lines_z.78 written succesfully.
+Proc ip:95 done with that.
+writing file ../out/lines_z.95
+file ../out/lines_z.95 written succesfully.
+Proc ip:77 done with that.
+writing file ../out/lines_z.77
+file ../out/lines_z.77 written succesfully.
+Proc ip:87 done with that.
+writing file ../out/lines_z.87
+file ../out/lines_z.87 written succesfully.
+Proc ip:74 done with that.
+writing file ../out/lines_z.74
+file ../out/lines_z.74 written succesfully.
+Proc ip:60 done with that.
+writing file ../out/lines_z.60
+file ../out/lines_z.60 written succesfully.
+Proc ip:97 done with that.
+writing file ../out/lines_z.97
+file ../out/lines_z.97 written succesfully.
+Proc ip:59 done with that.
+writing file ../out/lines_z.59
+file ../out/lines_z.59 written succesfully.
+Proc ip:62 done with that.
+writing file ../out/lines_z.62
+file ../out/lines_z.62 written succesfully.
+Proc ip:61 done with that.
+writing file ../out/lines_z.61
+file ../out/lines_z.61 written succesfully.
+Proc ip:53 done with that.
+writing file ../out/lines_z.53
+file ../out/lines_z.53 written succesfully.
+Proc ip:58 done with that.
+writing file ../out/lines_z.58
+file ../out/lines_z.58 written succesfully.
+Proc ip:71 done with that.
+writing file ../out/lines_z.71
+file ../out/lines_z.71 written succesfully.
+Proc ip:54 done with that.
+writing file ../out/lines_z.54
+file ../out/lines_z.54 written succesfully.
+Proc ip:73 done with that.
+writing file ../out/lines_z.73
+file ../out/lines_z.73 written succesfully.
+Proc ip:70 done with that.
+writing file ../out/lines_z.70
+file ../out/lines_z.70 written succesfully.
+Proc ip:48 done with that.
+writing file ../out/lines_z.48
+file ../out/lines_z.48 written succesfully.
+Proc ip:68 done with that.
+writing file ../out/lines_z.68
+file ../out/lines_z.68 written succesfully.
+Proc ip:63 done with that.
+writing file ../out/lines_z.63
+file ../out/lines_z.63 written succesfully.
+Proc ip:47 done with that.
+writing file ../out/lines_z.47
+file ../out/lines_z.47 written succesfully.
+Proc ip:69 done with that.
+writing file ../out/lines_z.69
+file ../out/lines_z.69 written succesfully.
+Proc ip:57 done with that.
+writing file ../out/lines_z.57
+file ../out/lines_z.57 written succesfully.
+Proc ip:72 done with that.
+writing file ../out/lines_z.72
+file ../out/lines_z.72 written succesfully.
+Proc ip:55 done with that.
+writing file ../out/lines_z.55
+file ../out/lines_z.55 written succesfully.
+Proc ip:52 done with that.
+writing file ../out/lines_z.52
+file ../out/lines_z.52 written succesfully.
+Proc ip:51 done with that.
+writing file ../out/lines_z.51
+file ../out/lines_z.51 written succesfully.
+Proc ip:46 done with that.
+writing file ../out/lines_z.46
+file ../out/lines_z.46 written succesfully.
+Proc ip:64 done with that.
+writing file ../out/lines_z.64
+file ../out/lines_z.64 written succesfully.
+Proc ip:50 done with that.
+writing file ../out/lines_z.50
+file ../out/lines_z.50 written succesfully.
+Proc ip:45 done with that.
+writing file ../out/lines_z.45
+file ../out/lines_z.45 written succesfully.
+Proc ip:65 done with that.
+writing file ../out/lines_z.65
+file ../out/lines_z.65 written succesfully.
+Proc ip:67 done with that.
+writing file ../out/lines_z.67
+file ../out/lines_z.67 written succesfully.
+Proc ip:49 done with that.
+writing file ../out/lines_z.49
+file ../out/lines_z.49 written succesfully.
+Proc ip:56 done with that.
+writing file ../out/lines_z.56
+file ../out/lines_z.56 written succesfully.
+Proc ip:66 done with that.
+writing file ../out/lines_z.66
+file ../out/lines_z.66 written succesfully.
+Proc ip:29 done with that.
+writing file ../out/lines_z.29
+file ../out/lines_z.29 written succesfully.
+Proc ip:31 done with that.
+writing file ../out/lines_z.31
+file ../out/lines_z.31 written succesfully.
+Proc ip:28 done with that.
+writing file ../out/lines_z.28
+file ../out/lines_z.28 written succesfully.
+Proc ip:44 done with that.
+writing file ../out/lines_z.44
+file ../out/lines_z.44 written succesfully.
+Proc ip:43 done with that.
+writing file ../out/lines_z.43
+file ../out/lines_z.43 written succesfully.
+Proc ip:16 done with that.
+writing file ../out/lines_z.16
+file ../out/lines_z.16 written succesfully.
+Proc ip:32 done with that.
+writing file ../out/lines_z.32
+file ../out/lines_z.32 written succesfully.
+Proc ip:36 done with that.
+writing file ../out/lines_z.36
+file ../out/lines_z.36 written succesfully.
+Proc ip:27 done with that.
+writing file ../out/lines_z.27
+file ../out/lines_z.27 written succesfully.
+Proc ip:35 done with that.
+writing file ../out/lines_z.35
+file ../out/lines_z.35 written succesfully.
+Proc ip:33 done with that.
+writing file ../out/lines_z.33
+file ../out/lines_z.33 written succesfully.
+Proc ip:30 done with that.
+writing file ../out/lines_z.30
+file ../out/lines_z.30 written succesfully.
+Proc ip:39 done with that.
+writing file ../out/lines_z.39
+file ../out/lines_z.39 written succesfully.
+Proc ip:17 done with that.
+writing file ../out/lines_z.17
+file ../out/lines_z.17 written succesfully.
+Proc ip:42 done with that.
+writing file ../out/lines_z.42
+file ../out/lines_z.42 written succesfully.
+Proc ip:23 done with that.
+writing file ../out/lines_z.23
+file ../out/lines_z.23 written succesfully.
+Proc ip:24 done with that.
+writing file ../out/lines_z.24
+file ../out/lines_z.24 written succesfully.
+Proc ip:26 done with that.
+writing file ../out/lines_z.26
+file ../out/lines_z.26 written succesfully.
+Proc ip:40 done with that.
+writing file ../out/lines_z.40
+file ../out/lines_z.40 written succesfully.
+Proc ip:14 done with that.
+writing file ../out/lines_z.14
+file ../out/lines_z.14 written succesfully.
+Proc ip:34 done with that.
+writing file ../out/lines_z.34
+file ../out/lines_z.34 written succesfully.
+Proc ip:41 done with that.
+writing file ../out/lines_z.41
+file ../out/lines_z.41 written succesfully.
+Proc ip:15 done with that.
+writing file ../out/lines_z.15
+file ../out/lines_z.15 written succesfully.
+Proc ip:25 done with that.
+writing file ../out/lines_z.25
+file ../out/lines_z.25 written succesfully.
+Proc ip:37 done with that.
+writing file ../out/lines_z.37
+file ../out/lines_z.37 written succesfully.
+Proc ip:18 done with that.
+writing file ../out/lines_z.18
+file ../out/lines_z.18 written succesfully.
+Proc ip:38 done with that.
+writing file ../out/lines_z.38
+file ../out/lines_z.38 written succesfully.
+Proc ip:22 done with that.
+writing file ../out/lines_z.22
+file ../out/lines_z.22 written succesfully.
+Proc ip:20 done with that.
+writing file ../out/lines_z.20
+file ../out/lines_z.20 written succesfully.
+Proc ip:11 done with that.
+writing file ../out/lines_z.11
+file ../out/lines_z.11 written succesfully.
+Proc ip:10 done with that.
+writing file ../out/lines_z.10
+file ../out/lines_z.10 written succesfully.
+Proc ip:13 done with that.
+writing file ../out/lines_z.13
+file ../out/lines_z.13 written succesfully.
+Proc ip:12 done with that.
+writing file ../out/lines_z.12
+file ../out/lines_z.12 written succesfully.
+Proc ip:19 done with that.
+writing file ../out/lines_z.19
+file ../out/lines_z.19 written succesfully.
+Proc ip:7 done with that.
+writing file ../out/lines_z.7
+file ../out/lines_z.7 written succesfully.
+Proc ip:9 done with that.
+writing file ../out/lines_z.9
+file ../out/lines_z.9 written succesfully.
+Proc ip:0 done with that.
+writing file ../out/lines_z.0
+file ../out/lines_z.0 written succesfully.
+Proc ip:8 done with that.
+writing file ../out/lines_z.8
+file ../out/lines_z.8 written succesfully.
+Proc ip:1 done with that.
+writing file ../out/lines_z.1
+file ../out/lines_z.1 written succesfully.
+Proc ip:21 done with that.
+writing file ../out/lines_z.21
+file ../out/lines_z.21 written succesfully.
+Proc ip:2 done with that.
+writing file ../out/lines_z.2
+file ../out/lines_z.2 written succesfully.
+Proc ip:3 done with that.
+writing file ../out/lines_z.3
+file ../out/lines_z.3 written succesfully.
+Proc ip:5 done with that.
+writing file ../out/lines_z.5
+file ../out/lines_z.5 written succesfully.
+Proc ip:6 done with that.
+writing file ../out/lines_z.6
+file ../out/lines_z.6 written succesfully.
+Proc ip:4 done with that.
+writing file ../out/lines_z.4
+file ../out/lines_z.4 written succesfully.

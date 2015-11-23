@@ -21,8 +21,8 @@ print 'jpas lims set'
 
 datafile = '/home/CEFCA/aaorsi/work/jpas_mock/out/'
 #name = 'emlines_MXXL'
-#name = 'test'
-name = 'lines_mags_sfr_mstellar_z'
+name = 'test'
+#name = 'lines_mags_sfr_mstellar_z'
 
 
 nFil = len(FiltArr['w'])
@@ -69,12 +69,13 @@ def read_chunks(ip,Mags=True):
   zArr = np.fromfile(nf,dtype=np.double,count=ngg)
   SfrArr = np.fromfile(nf,dtype=np.double,count=ngg)
   MStellarArr = np.fromfile(nf,dtype=np.double,count=ngg)
+  ZArr = np.fromfile(nf,dtype=np.double,count=ngg)
 
 
 
 #    print 'zdata read.'
   nf.close()
-  return {'lines':LinesLumArr, 'z':zArr,'Mstellar':MStellarArr,'SFR':SfrArr,'Mag':MagsLumArr}
+  return {'lines':LinesLumArr, 'z':zArr,'Mstellar':MStellarArr,'SFR':SfrArr,'Mag':MagsLumArr,'Zcold':ZArr}
 #   MagsLumArr = np.memmap(nf,dtype=magtype, shape=(ngg,nline))
   
 

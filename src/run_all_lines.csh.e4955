@@ -1,0 +1,80 @@
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+/home/CEFCA/aaorsi/work/jpas_mock/src/readmock_chunk.py:84: RuntimeWarning: divide by zero encountered in log10
+  Nlyc_ = np.log10(1.35) + np.log10(GalArr['sfr'][gsel]) + 53.0
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+./get_all_lines.py:153: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60

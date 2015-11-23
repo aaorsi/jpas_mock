@@ -1,0 +1,42 @@
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+get_oii.py:159: RuntimeWarning: divide by zero encountered in log10
+  mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+Traceback (most recent call last):
+  File "get_oii.py", line 172, in <module>
+    (~np.isinf(mag_app)))
+TypeError: ufunc 'isinf' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''

@@ -1,0 +1,225 @@
+Warning: no access to tty (Descriptor de archivo erróneo).
+Thus no job control in this shell.
+nproc: 20  outfile: ../out/emlines_MXXL
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS3518_535.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS3785_165.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS3900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS4900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS5900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS6900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS7900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8000_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8100_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8200_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8300_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8400_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8500_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8600_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8700_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8800_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS8900_145.res
+/home/CEFCA/aaorsi/work/jpas_mock/data/JPAS9000_145.res
+0.1 1.65
+int_ab[i] 0.0203564614201
+int_ab[i] 0.0114679466933
+int_ab[i] 0.0120821911842
+int_ab[i] 0.0134861972183
+int_ab[i] 0.0144946668297
+int_ab[i] 0.0151178715751
+int_ab[i] 0.0155359748751
+int_ab[i] 0.0158372074366
+int_ab[i] 0.0160428285599
+int_ab[i] 0.0161389298737
+int_ab[i] 0.016166485846
+int_ab[i] 0.0161570832133
+int_ab[i] 0.0161299556494
+int_ab[i] 0.0160437822342
+int_ab[i] 0.0159118641168
+int_ab[i] 0.0158081613481
+int_ab[i] 0.0157246999443
+int_ab[i] 0.0156724117696
+int_ab[i] 0.0155749479309
+int_ab[i] 0.0154485590756
+int_ab[i] 0.0153099568561
+int_ab[i] 0.0152072031051
+int_ab[i] 0.0151442587376
+int_ab[i] 0.0151389818639
+int_ab[i] 0.0151322046295
+int_ab[i] 0.0150892026722
+int_ab[i] 0.0149820689112
+int_ab[i] 0.0148524548858
+int_ab[i] 0.0147035121918
+int_ab[i] 0.014489825815
+int_ab[i] 0.0142242480069
+int_ab[i] 0.0139062553644
+int_ab[i] 0.0132269561291
+int_ab[i] 0.0136163467541
+int_ab[i] 0.0135210696608
+int_ab[i] 0.0125481933355
+int_ab[i] 0.0125179411843
+int_ab[i] 0.0125501481816
+int_ab[i] 0.0121549926698
+int_ab[i] 0.00964732654393
+int_ab[i] 0.0107342172414
+int_ab[i] 0.0112485848367
+int_ab[i] 0.0109006380662
+int_ab[i] 0.0106882341206
+int_ab[i] 0.010041648522
+int_ab[i] 0.00910400412977
+int_ab[i] 0.00908912438899
+int_ab[i] 0.00916602555662
+int_ab[i] 0.00884866714478
+int_ab[i] 0.00851715542376
+int_ab[i] 0.00812996644527
+int_ab[i] 0.00771042471752
+int_ab[i] 0.00710422359407
+int_ab[i] 0.00618865946308
+loading lightcone data
+now loading photo-ionisation grid
+Lines available: ['Lyalpha' 'Hbeta' 'Halpha' 'OII_3727' 'OII_3729' 'OIII_5007' 'OIII_4959'
+ 'OI_6300' 'NII_6548' 'NII_6584' 'SII_6717' 'SII_6731' 'NeIII_3870'
+ 'CII_158um' 'NII_205um']
+checking lambda0: [  1.21600000e+03   4.86100000e+03   6.56300000e+03   3.72700000e+03
+   3.72900000e+03   5.00700000e+03   4.95900000e+03   6.30000000e+03
+   6.54800000e+03   6.58400000e+03   6.71700000e+03   6.73100000e+03
+   3.87000000e+03   1.58000000e+06   2.05000000e+06] [  1.21600000e+03   4.86100000e+03   6.56300000e+03   3.72700000e+03
+   3.72900000e+03   5.00700000e+03   4.95900000e+03   6.30000000e+03
+   6.54800000e+03   6.58400000e+03   6.71700000e+03   6.73100000e+03
+   3.87000000e+03   1.58000000e+00   2.05000000e+00]
+nz, nq, nage, [5] [7] [1]
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 16=[9475440]
+after selection, ngals =  9323355
+ip 16, computing lines for  ngals= 9323355  galaxies...
+Proc ip:16 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 12=[9475440]
+after selection, ngals =  9282122
+ip 12, computing lines for  ngals= 9282122  galaxies...
+Proc ip:12 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 10=[9475440]
+after selection, ngals =  9257584
+ip 10, computing lines for  ngals= 9257584  galaxies...
+Proc ip:10 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 15=[9475440]
+after selection, ngals =  9332691
+ip 15, computing lines for  ngals= 9332691  galaxies...
+Proc ip:15 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 18=[9475440]
+after selection, ngals =  9236018
+ip 18, computing lines for  ngals= 9236018  galaxies...
+Proc ip:18 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 11=[9475440]
+after selection, ngals =  9235620
+ip 11, computing lines for  ngals= 9235620  galaxies...
+Proc ip:11 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 19=[9475440]
+after selection, ngals =  9124971
+ip 19, computing lines for  ngals= 9124971  galaxies...
+Proc ip:19 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 9=[9475440]
+after selection, ngals =  9221301
+ip 9, computing lines for  ngals= 9221301  galaxies...
+Proc ip:9 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 14=[9475440]
+after selection, ngals =  9207820
+ip 14, computing lines for  ngals= 9207820  galaxies...
+Proc ip:14 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 17=[9475440]
+after selection, ngals =  9217029
+ip 17, computing lines for  ngals= 9217029  galaxies...
+Proc ip:17 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 5=[9475440]
+after selection, ngals =  8995899
+ip 5, computing lines for  ngals= 8995899  galaxies...
+Proc ip:5 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 6=[9475440]
+after selection, ngals =  8977421
+ip 6, computing lines for  ngals= 8977421  galaxies...
+Proc ip:6 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 7=[9475440]
+after selection, ngals =  8933528
+ip 7, computing lines for  ngals= 8933528  galaxies...
+Proc ip:7 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 13=[9475440]
+after selection, ngals =  9085788
+ip 13, computing lines for  ngals= 9085788  galaxies...
+Proc ip:13 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 4=[9475440]
+after selection, ngals =  8918441
+ip 4, computing lines for  ngals= 8918441  galaxies...
+Proc ip:4 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 2=[9475440]
+after selection, ngals =  8921495
+ip 2, computing lines for  ngals= 8921495  galaxies...
+Proc ip:2 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 3=[9475440]
+after selection, ngals =  8946067
+ip 3, computing lines for  ngals= 8946067  galaxies...
+Proc ip:3 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 8=[9475440]
+after selection, ngals =  8947713
+ip 8, computing lines for  ngals= 8947713  galaxies...
+Proc ip:8 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 1=[9475440]
+after selection, ngals =  8883206
+ip 1, computing lines for  ngals= 8883206  galaxies...
+Proc ip:1 done with that.
+number of galaxies in catalogue: [189508812]
+number of galaxies in chunk 0=[9475440]
+after selection, ngals =  8841919
+ip 0, computing lines for  ngals= 8841919  galaxies...
+Proc ip:0 done with that.

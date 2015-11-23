@@ -104,10 +104,10 @@ def main(nproc,outfile):
   magtype = np.dtype('f4, i4')
   def read_lightcone_chunk(ip, nproc):
     GalArr,lLyc,ngg,DistNz,zdist = readmock_chunk(ip,nproc,props_array = props,
-                                   zspace=usezspace)
+                                   zspace=usezspace,sfrmin=500)
 
     
-    zcold = GalArr['Mz']/GalArr['Mcold']
+    zcold = GalArr['Mcold']/GalArr['Mz']
     qpar = qZrelation(zcold)  # assuming default pars.
 
     # This stores all line luminosities for all galaxies
@@ -116,6 +116,7 @@ def main(nproc,outfile):
     redshiftArr = np.zeros(ngg)
     SfrArr = np.zeros(ngg)
     MStellarArr = np.zeros(ngg)
+    ZArr        = np.zeros(ngg)
     print 'ip '+str(ip)+', computing lines for  ngals=',ngg,' galaxies...'
     sys.stdout.flush()
     for ig in range(ngg):
@@ -123,12 +124,15 @@ def main(nproc,outfile):
       redshiftArr[ig] = GalArr['redshift'][ig]
       SfrArr[ig] = GalArr['sfr'][ig]
       MStellarArr[ig] = GalArr['stellarmass'][ig]
+      ZArr[ig]        = zcold[ig]
+
 #     LinesLumArr[ig,il] = iline
       
-    print 'redshiftArr', redshiftArr[0:10]
-    print 'Lines[0,:]' , LinesLumArr[0,:]
-    print 'Lines[10,:]' , LinesLumArr[10,:]
+    print 'redshiftArr'  , redshiftArr[0:10]
+    print 'Lines[0,:]'   , LinesLumArr[0,:]
+    print 'Lines[10,:]'  , LinesLumArr[10,:]
     print 'Lines[100,:]' , LinesLumArr[100,:]
+    print 'zarr[100,:]'  , ZArr[0:100]
     print 'Proc ip:'+str(ip)+' done with that.'
 
     # This stores the AB observed-frame apparent magnitude for all luminosities of all galaxies, indicating also to which filter
@@ -148,14 +152,24 @@ def main(nproc,outfile):
 
         for i in range(ngg):
           idFilter,Val = find_nearest_vector(CentralW,wgal[i])
-          nz = np.where(FiltArr['w'][idFilter] != 0)
-          lamb = FiltArr['w'][idFilter][nz]
-          tlamb = FiltArr['t'][idFilter][nz]
-          tlam0 = np.interp(wgal[i],lamb,tlamb)
-    # mag_app[i] = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
-          mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+          
+          if idFilter == 0:
+            if wgal[i] < p10p90W[0,0]:
+              MagsLumArr[i,il] = (-99,-99)
+              continue
+          elif idFilter == nFil-1:
+            if wgal[i] > p10p90W[nFil-1,1]:
+              MagsLumArr[i,il] = (99,99)
+              continue
+          else:
+            nz = np.where(FiltArr['w'][idFilter] != 0)
+            lamb = FiltArr['w'][idFilter][nz]
+            tlamb = FiltArr['t'][idFilter][nz]
+            tlam0 = np.interp(wgal[i],lamb,tlamb)
+      # mag_app[i] = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
+            mag_app = -2.5*(log_Fline[i]+ np.log10((wgal[i]*tlam0)/int_ab[idFilter]) - 18-np.log10(3.0)) - 48.60
 
-          MagsLumArr[i,il] = (mag_app, idFilter)
+            MagsLumArr[i,il] = (mag_app, idFilter)
   
     filename = outfile + '.' + str(ip)
     nf = open(filename,"wb")
@@ -168,6 +182,7 @@ def main(nproc,outfile):
     redshiftArr.tofile(nf)
     SfrArr.tofile(nf)
     MStellarArr.tofile(nf)
+    ZArr.tofile(nf)
     nf.close()
     print 'file '+filename+' written succesfully.'
     
